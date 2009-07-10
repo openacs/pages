@@ -1,0 +1,7 @@
+::xowiki::Page new -title "Index Page" -text {
+{{object_index -decoration none}}
+}
+
+
+
+

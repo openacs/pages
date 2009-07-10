@@ -1,0 +1,11 @@
+::xowiki::Object new -title "Object index" -text {
+proc content {} {
+    set community_id [dotlrn_community::get_community_id]
+    set community_url [dotlrn_community::get_community_url $community_id]
+    if { ![empty_string_p $community_url] } {
+        ad_returnredirect "${community_url}"
+    } else {
+        ad_returnredirect "../"
+    }
+}
+}
