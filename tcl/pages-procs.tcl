@@ -1,5 +1,5 @@
 ad_library {
-    Pages - classess and procs
+    Pages - classes and procs
 
     @creation-date Aug 2008
     @author Alvaro Rodriguez
